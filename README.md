@@ -16,6 +16,7 @@ Manuscript PDF: [`manuscript/boruta_lcm_pd_signatures.pdf`](manuscript/boruta_lc
 | `results/` | Every table the figures read: model performance, the Boruta panel, external cohorts, enrichment, composition |
 | `figures/` | Figures 1–10 as PDF and PNG |
 | `manuscript/` | The paper, the standalone gene table, the gene master table and the literature-search record |
+| `manuscript/source/` | The LaTeX source, `build.sh`, the bibliography and every script that generates a table |
 
 Notebooks are written by the scripts in `builders/`, not by hand: `python3 builders/build_fig1.py`
 rewrites `PD_LCM_rf_figure1.ipynb`, and `push_kernel.py` uploads it. Credentials are read from
@@ -42,6 +43,8 @@ rewrites `PD_LCM_rf_figure1.ipynb`, and `push_kernel.py` uploads it. Credentials
 | `PD_LCM_rf_composition_figures` | [pd-lcm-rf-composition-figures](https://www.kaggle.com/code/alisaremi/pd-lcm-rf-composition-figures) | Figures 9 and 10 |
 | `PD_LCM_rf_gsea` | [pd-lcm-rf-gsea](https://www.kaggle.com/code/alisaremi/pd-lcm-rf-gsea) | Exploratory gene set enrichment over the full ranking |
 | `PD_LCM_rf_gsea_figures` | [pd-lcm-rf-gsea-figures](https://www.kaggle.com/code/alisaremi/pd-lcm-rf-gsea-figures) | Figures for the exploratory analysis (not in the paper) |
+| `PD_LCM_rf_deconvolution` | [pd-lcm-rf-deconvolution](https://www.kaggle.com/code/alisaremi/pd-lcm-rf-deconvolution) | Reference-based deconvolution of the external cohorts against a single-nucleus midbrain atlas |
+| `PD_LCM_rf_panel_stability` | [pd-lcm-rf-panel-stability](https://www.kaggle.com/code/alisaremi/pd-lcm-rf-panel-stability) | Does a smaller, more stable panel transfer as well? Every fold-frequency threshold, against random panels |
 
 ## The twelve cohorts
 
@@ -71,6 +74,22 @@ All expression data are public in the Gene Expression Omnibus.
 
 Dopamine-neuron subtype markers come from the single-nucleus atlas of Kamath et al. 2022,
 doi:[10.1038/s41593-022-01061-1](https://doi.org/10.1038/s41593-022-01061-1) (Supplementary Table 8).
+
+**Single-nucleus references**
+
+| Accession | Use | Source |
+| --- | --- | --- |
+| — | Dopamine-neuron subtype markers (Supplementary Table 8) | Kamath et al. 2022, doi:[10.1038/s41593-022-01061-1](https://doi.org/10.1038/s41593-022-01061-1) |
+| [GSE157783](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157783) | Cell-type reference for deconvolution: 41,434 nuclei, 6 control and 5 PD | Smajić et al. 2022, doi:[10.1093/brain/awab446](https://doi.org/10.1093/brain/awab446) |
+
+The deconvolution notebook downloads GSE157783 itself and writes the signature matrix, the per-donor
+proportions and the agreement with the eight-marker score to `results/deconvolution/`.
+
+## Reproducing the manuscript
+
+`manuscript/source/` holds everything the paper is built from. With a TeX installation that has
+`pdflatex` and `bibtex`, `./build.sh` regenerates the PDF and the DOCX, including Table 3 and the
+supplementary search record, from the tables in `results/`.
 
 ## Reproducing
 
