@@ -1,0 +1,97 @@
+{
+ "reported": {
+  "n_genes": 30,
+  "pooled_auc": 0.7721392778516206,
+  "p_vs_random": 0.014925373134328358
+ },
+ "best_stable": {
+  "threshold": 0.0,
+  "n_genes": 30,
+  "pooled_auc": 0.7721392778516206,
+  "p_vs_random": 0.014925373134328358,
+  "genes": [
+   "CFLAR",
+   "IBTK",
+   "CPNE3",
+   "FUS",
+   "LGMN",
+   "ZMYND8",
+   "CALB1",
+   "SOX6",
+   "PRKAR2A",
+   "BCL11A",
+   "DNAJB1",
+   "ADGRB3",
+   "PLXNC1",
+   "GPNMB",
+   "SSTR1",
+   "SH3GL3",
+   "CACNA1A",
+   "PPFIA4",
+   "CNTN4",
+   "MANF",
+   "USP12",
+   "ICE1",
+   "ELOVL7",
+   "CALB2",
+   "SCAI",
+   "RBM4B",
+   "C11orf54",
+   "L3MBTL1",
+   "TRRAP",
+   "GSTK1"
+  ]
+ },
+ "at_50": [
+  {
+   "threshold": 0.48,
+   "n_genes": 14,
+   "pooled_auc": 0.7515837137096912,
+   "random_median": 0.5725669651290188,
+   "random_p95": 0.6981749963078592,
+   "p_vs_random": 0.014925373134328358
+  }
+ ],
+ "at_70": [
+  {
+   "threshold": 0.68,
+   "n_genes": 8,
+   "pooled_auc": 0.7246363241390443,
+   "random_median": 0.569253848412723,
+   "random_p95": 0.6810858017011324,
+   "p_vs_random": 0.029850746268656716
+  }
+ ],
+ "fold_frequency": {
+  "CFLAR": 0.56,
+  "IBTK": 0.6,
+  "CPNE3": 0.4,
+  "FUS": 0.36,
+  "LGMN": 0.2,
+  "ZMYND8": 0.84,
+  "CALB1": 0.52,
+  "SOX6": 0.36,
+  "PRKAR2A": 0.32,
+  "BCL11A": 0.4,
+  "DNAJB1": 0.56,
+  "ADGRB3": 0.36,
+  "PLXNC1": 0.96,
+  "GPNMB": 0.92,
+  "SSTR1": 0.48,
+  "SH3GL3": 0.52,
+  "CACNA1A": 0.24,
+  "PPFIA4": 0.76,
+  "CNTN4": 0.72,
+  "MANF": 0.16,
+  "USP12": 0.48,
+  "ICE1": 0.8,
+  "ELOVL7": 0.4,
+  "CALB2": 0.52,
+  "SCAI": 0.72,
+  "RBM4B": 1.0,
+  "C11orf54": 0.4,
+  "L3MBTL1": 0.16,
+  "TRRAP": 0.32,
+  "GSTK1": 0.36
+ }
+}

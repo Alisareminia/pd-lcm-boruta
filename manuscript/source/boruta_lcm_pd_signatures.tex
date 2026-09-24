@@ -222,6 +222,12 @@ came from 10,000 permutations of diagnosis within cohorts; confidence intervals 
 curves were averaged vertically with the same weights so that the drawn curve has the pooled area
 \citep{hanley1982}.
 
+The dependence of the external result on the less stable members of the panel was measured by repeating the
+whole frozen-panel procedure with the panel restricted by fold frequency, at every threshold from 0 to 100\%
+in steps of 4\%, and by comparing each panel with 200 random panels of the same size drawn from the 5,622
+measured genes and put through the identical steps. Fold frequencies come from the discovery donors alone and
+were fixed when the panel was selected.
+
 Each panel gene was also tested on its own in the external donors. Cohort-level standardised effects were
 combined by inverse-variance meta-analysis, tested two-sided against the standard normal and corrected by the
 Benjamini--Hochberg procedure over the 30 genes of the panel, before and after the neuron-content adjustment
@@ -396,6 +402,22 @@ donor identifier and removed.}
 
 \input{table_external}
 
+Boruta reselected the panel genes at very different rates across the training folds, from \textit{RBM4B} in
+every fold to \textit{MANF} and \textit{L3MBTL1} in four of twenty-five, so the panel was restricted by fold
+frequency and retested. Keeping only the genes reselected in more than half of the folds leaves 14, and more
+than 70\% leaves 8. Neither smaller panel does better. Pooled over the same donors the reported 30 genes
+reach 0.772, the 14 stable genes 0.752 and the 8 most stable 0.725; every threshold between those points
+lands in the same band. The tail of unstable genes is therefore contributing, not diluting, and the panel is
+not improved by trimming it.
+
+The comparison that decides how much of this is the panel rather than the method is 200 random panels of each
+size, put through the identical procedure. All three panels beat their own null (
+$P=0.015$, $0.015$ and $0.030$), but the null itself is high: a random 30-gene panel reaches a median pooled
+AUC of 0.63, and one in twenty reaches 0.73. Any set of genes carries some of the neuron loss with it. The
+selection adds to that, and the margin it adds is modest. These figures use all 173 external donors without
+the donor-overlap removal, so they sit below the values in Table~\ref{tab:external} and are comparable with
+each other rather than with that table.
+
 \subsection{The panel tracks a dopamine-neuron lineage}
 
 Three quarters of the panel genes appear in the Kamath single-nucleus marker table \citep{kamath2022}, and
@@ -521,6 +543,14 @@ neurons and bulk tissue ($P=0.003$), which a pure composition marker would not d
 expression signature is diagnostic has to clear this bar first, and most published signatures have never been
 asked to.
 
+One number deserves more weight than its size suggests. Random 30-gene panels, selected without reference to
+the disease and put through the same frozen procedure, reach a median pooled AUC of 0.63 in these cohorts,
+and the best one in twenty reaches 0.73. A nigral expression panel therefore starts from a high floor,
+because almost any gene set inherits some of the neuron loss. Read against that floor the panel is ahead but
+not far ahead, and the honest description of the external result is a real effect of modest size rather than
+a diagnostic. We report the null because a signature that has never been compared with a random one of equal
+size has not been tested in the way that matters.
+
 The two models do not transfer equally well, and the gap is informative. The panel forest reaches 0.84 in bulk
 tissue while the core classifier reaches 0.70, although the core classifier is the better model in discovery.
 The difference follows from what each one carries across. The core classifier's thirty components are fitted to
@@ -584,7 +614,9 @@ tissue type, and cohort sizes run from 11 to 29 donors, which makes individual c
 unstable at this sample size: rerun on the donors that remain after a whole brain bank is withheld, it returns
 panels sharing 5 of 30 and 15 of 32 genes with the reported one, so the panel is one of several
 near-equivalent all-relevant sets that these data support, and the nine genes that replicate externally carry
-more weight than membership of the list. Donor overlap could only be excluded where identifiers allowed it; the strictly independent models are the guard
+more weight than membership of the list. Restricting the panel to its stable core does not repair this:
+the 14 genes reselected in more than half of the folds, and the 8 reselected in more than 70\%, transfer
+slightly worse than the full 30, so the instability cannot be removed by trimming. Donor overlap could only be excluded where identifiers allowed it; the strictly independent models are the guard
 against what identifiers missed. Subtype mixtures are estimated from marker averages, not measured, and the
 Kamath markers come from a different cohort and technology \citep{kamath2022}. Finally, clinical detail is
 thin in the public metadata: we could not test disease duration, medication or Braak stage systematically,
