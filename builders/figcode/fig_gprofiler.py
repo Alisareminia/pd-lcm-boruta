@@ -216,7 +216,7 @@ for i, k in enumerate(("up", "down", "all")):
         ax.set_ylabel("Random lists", fontsize=5.6, labelpad=2)
     ax.tick_params(labelsize=5.3)
     C.text(x0 + BW / 2, BY + BH0 + 1.8, LISTLAB[k], ha="center", fontsize=5.8, color=COLS_L[k], fontweight="bold")
-    C.text(x0 + BW / 2, BY - 6.6, f"{100 * CAL[k]['random_with_any_significant']:.0f}% of random lists return at least one "
+    C.text(x0 + BW / 2, BY - 8.2, f"{100 * CAL[k]['random_with_any_significant']:.0f}% of random lists return at least one "
            f"(mean {CAL[k]['random_mean_significant']:.1f});\nstrongest term vs random lists: P = {CAL[k]['calibrated_p_best']:.2f}",
-           ha="center", fontsize=5.3, color=MUTED, linespacing=1.2)
+           ha="center", va="top", fontsize=5.3, color=MUTED, linespacing=1.25)
 C.save("Figure09_gprofiler_pathways")
