@@ -1,0 +1,74 @@
+{
+ "reference": {
+  "accession": "GSE157783",
+  "nuclei": 41434,
+  "donors": 11,
+  "cell_types": [
+   "Oligodendrocytes",
+   "Astrocytes",
+   "Microglia",
+   "Excitatory",
+   "OPCs",
+   "Endothelial cells",
+   "Inhibitory",
+   "Pericytes",
+   "Ependymal",
+   "GABA",
+   "CADPS2+ neurons",
+   "DaNs"
+  ],
+  "signature_genes": 1626,
+  "condition_number": 23.950294494628906
+ },
+ "agreement": {
+  "music": {
+   "n": 173,
+   "spearman": 0.7939072942673009,
+   "spearman_p": 8.626420279021971e-39,
+   "pearson": 0.7732383180315027,
+   "pearson_p": 1.163096481197932e-35
+  },
+  "nnls": {
+   "n": 173,
+   "spearman": 0.4320917289020203,
+   "spearman_p": 2.918745780126627e-09,
+   "pearson": 0.5368723847291339,
+   "pearson_p": 2.65388315908913e-14
+  },
+  "nusvr": {
+   "n": 173,
+   "spearman": 0.6405547238086355,
+   "spearman_p": 2.30687214986973e-21,
+   "pearson": 0.609581163020643,
+   "pearson_p": 5.564927812412034e-19
+  }
+ },
+ "signature_genes_measured": {
+  "GSE7621": 1319,
+  "GSE20292": 799,
+  "GSE20163": 799,
+  "GSE20164": 799,
+  "GSE8397": 799,
+  "GSE49036": 1321,
+  "GSE114517": 1567,
+  "GSE168496": 1225
+ },
+ "pooled_adjusted_auc": {
+  "auc": {
+   "frozen": 0.6722218787672714,
+   "panel": 0.7721392778516206
+  },
+  "auc_marker_removed": {
+   "frozen": 0.6177204723192482,
+   "panel": 0.7270404229304264
+  },
+  "auc_DaN_removed": {
+   "frozen": 0.6321687634591409,
+   "panel": 0.6727980244471233
+  },
+  "auc_all_neurons_removed": {
+   "frozen": 0.660933802492796,
+   "panel": 0.7604732294038652
+  }
+ }
+}
