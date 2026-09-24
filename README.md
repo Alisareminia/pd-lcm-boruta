@@ -13,7 +13,7 @@ Manuscript PDF: [`manuscript/boruta_lcm_pd_signatures.pdf`](manuscript/boruta_lc
 | --- | --- |
 | `notebooks/` | The 17 Kaggle notebooks, exactly as run |
 | `builders/` | The Python scripts that generate each notebook, the figure code (`figcode/`) and the Kaggle metadata |
-| `results/` | Every table the figures read: model performance, the Boruta panel, external cohorts, enrichment, composition |
+| `results/` | Every table the figures read: model performance, the Boruta panel, external cohorts, enrichment, composition, deconvolution and panel stability |
 | `figures/` | Figures 1–10 as PDF and PNG |
 | `manuscript/` | The paper, the standalone gene table, the gene master table and the literature-search record |
 | `manuscript/source/` | The LaTeX source, `build.sh`, the bibliography and every script that generates a table |
