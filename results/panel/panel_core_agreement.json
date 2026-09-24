@@ -1,0 +1,43 @@
+{
+ "panel_size": 30,
+ "overlap_with_core_topN": 2,
+ "expected_by_chance": 0.16008537886872998,
+ "hypergeometric_p": 0.010914512655695213,
+ "overlap_genes": [
+  "CFLAR",
+  "DNAJB1"
+ ],
+ "panel_median_core_rank": 481.5,
+ "panel_core_ranks": {
+  "CFLAR": 19,
+  "IBTK": 606,
+  "CPNE3": 461,
+  "FUS": 556,
+  "LGMN": 2483,
+  "ZMYND8": 121,
+  "CALB1": 1686,
+  "SOX6": 185,
+  "PRKAR2A": 407,
+  "BCL11A": 1048,
+  "DNAJB1": 1,
+  "ADGRB3": 92,
+  "PLXNC1": 799,
+  "GPNMB": 117,
+  "SSTR1": 204,
+  "SH3GL3": 722,
+  "CACNA1A": 2985,
+  "PPFIA4": 873,
+  "CNTN4": 83,
+  "MANF": 861,
+  "USP12": 502,
+  "ICE1": 977,
+  "ELOVL7": 876,
+  "CALB2": 344,
+  "SCAI": 277,
+  "RBM4B": 447,
+  "C11orf54": 174,
+  "L3MBTL1": 1045,
+  "TRRAP": 865,
+  "GSTK1": 51
+ }
+}

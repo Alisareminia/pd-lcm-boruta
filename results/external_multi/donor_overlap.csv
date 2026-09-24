@@ -1,0 +1,9 @@
+cohort,people,shared_with_discovery,basis,strict_model_trained_without,also_in_another_external_cohort
+GSE7621,25,0,different brain bank,(same as frozen),0
+GSE20292,29,12,donor number = GSE20141,GSE20141 + GSE24378,0
+GSE20163,17,2,donor number = GSE20141,GSE20141 + GSE24378,1
+GSE20164,11,0,no donor IDs in a comparable format,GSE20141 + GSE24378,0
+GSE8397,23,0,different brain bank,(same as frozen),0
+GSE49036,23,0,no donor IDs in a comparable format,GSE182622,0
+GSE114517,29,0,different brain bank,(same as frozen),0
+GSE168496,16,0,brain-bank ID = GSE182622,GSE182622,0

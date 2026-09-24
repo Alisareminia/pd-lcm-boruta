@@ -1,0 +1,60 @@
+{
+ "chosen": "ranks -> PCA 30 | mtry 0.5 | leaf 1",
+ "candidates": [
+  "ranks -> PCA 30 | mtry 0.5 | leaf 1",
+  "ranks -> PCA 30 | mtry 0.5 | leaf 3",
+  "PCA 20 | mtry 0.33 | leaf 1",
+  "PCA 25 | mtry sqrt | leaf 1",
+  "PCA 20 | mtry sqrt | leaf 1",
+  "ranks -> PCA 20 | mtry 0.5 | leaf 1"
+ ],
+ "fresh_folds": {
+  "ranks -> PCA 30 | mtry 0.5 | leaf 1": {
+   "auc": 0.7418181818181819,
+   "acc_0.5": 0.6952380952380952,
+   "acc_oob": 0.6666666666666667,
+   "bal_oob": 0.6733333333333333,
+   "auc_sd": 0.04716016796976724,
+   "acc_0.5_sd": 0.039452596576311644,
+   "acc_oob_sd": 0.05447423355019576
+  },
+  "RF, all genes (baseline)": {
+   "auc": 0.6266161616161617,
+   "acc_0.5": 0.5968253968253968,
+   "acc_oob": 0.5952380952380952,
+   "bal_oob": 0.5883333333333334,
+   "auc_sd": 0.054675744337853306,
+   "acc_0.5_sd": 0.054576918341704236,
+   "acc_oob_sd": 0.04505128668234497
+  }
+ },
+ "nested": {
+  "auc": 0.7407407407407408,
+  "acc_0.5": 0.693121693121693,
+  "acc_oob": 0.693121693121693,
+  "auc_sd": 0.027128938826240664,
+  "picks": {
+   "ranks -> PCA 20 | mtry 0.5 | leaf 1": 5,
+   "PCA 25 | mtry sqrt | leaf 1": 4,
+   "ranks -> PCA 30 | mtry 0.5 | leaf 1": 3,
+   "ranks -> PCA 30 | mtry 0.5 | leaf 3": 3
+  }
+ },
+ "permutation": {
+  "observed_auc": 0.7070707070707071,
+  "observed_acc": 0.6031746031746031,
+  "null_auc_mean": 0.49789898989898984,
+  "null_auc_95": 0.6394191919191919,
+  "p_auc": 0.004975124378109453,
+  "p_acc": 0.07462686567164178,
+  "n_perm": 200
+ },
+ "lodo": {
+  "pooled_auc": 0.6777777777777777,
+  "accuracy_0.5": 0.5396825396825397,
+  "GSE169755": 1.0,
+  "GSE182622": 0.7,
+  "GSE20141": 0.55,
+  "GSE24378": 0.5972222222222222
+ }
+}

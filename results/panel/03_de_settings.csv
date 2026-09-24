@@ -1,0 +1,5 @@
+statistic,value
+de_rule,nominal
+de_label,"nominal DE genes (p < 0.01, not FDR-corrected)"
+nominal_p,0.01
+n_de_set,52

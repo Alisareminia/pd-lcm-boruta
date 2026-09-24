@@ -1,0 +1,14 @@
+n,file,rows,description
+1,03_de_results_full.csv,5622,DE across 63 people (merged pipeline; nominal p<0.01 flagged)
+2,03_de_settings.csv,4,DE rule used
+3,04_boruta_selected_genes.csv,30,"Boruta + Random Forest (perc 99), all 63 people"
+4,04_boruta_settings.csv,7,Boruta settings and stability
+5,05_boruta_shap_importance.csv,30,TreeSHAP of the Random Forest on the Boruta genes
+6,06_overlap_analysis.csv,5,Venn counts
+7,06_gene_set_membership.csv,60,Boruta / DE membership
+8,07_single_gene_auc.csv,30,"Out-of-fold single-gene AUC (10 x 5 CV, 63 people)"
+9,13_gene_annotation_master.csv,30,Per-gene summary for the Boruta genes
+10,15_roc_curves.csv,871,Out-of-fold single-gene ROC coordinates
+11,15_gene_symbol_map.csv,5622,copied from the core notebook
+12,01_preprocessing_summary.csv,7,copied from the core notebook
+13,01_cohort_by_dataset.csv,4,copied from the core notebook

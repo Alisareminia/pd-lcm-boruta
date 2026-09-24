@@ -1,0 +1,15 @@
+{
+  "id": "alisaremi/pd-lcm-ext-probe",
+  "title": "PD LCM Ext Probe",
+  "code_file": "PD_LCM_ext_probe.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

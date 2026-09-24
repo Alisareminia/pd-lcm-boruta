@@ -1,0 +1,7 @@
+statistic,value
+chance,0.25
+accuracy_before,1.0
+accuracy_after,0.00972222222222222
+null_mean,0.25279708853238264
+null_95th,0.32496657754010694
+passed,1.0

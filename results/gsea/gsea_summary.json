@@ -1,0 +1,18 @@
+{
+ "sets_tested": 1967,
+ "gsea_strict_BH_lt_0.05": 0,
+ "gsea_own_fdr_donors_lt_0.25": 0,
+ "gsea_own_fdr_genes_lt_0.25": 20,
+ "gsea_genes_BH_lt_0.05": 0,
+ "gsea_significant_with_panel_gene": 12,
+ "ssgsea_BH_lt_0.05": 0,
+ "ssgsea_p_lt_0.05": 147,
+ "in_both": 18,
+ "permutations": 1000,
+ "sources": {
+  "GO BP": 1040,
+  "Reactome": 651,
+  "KEGG": 231,
+  "Hallmark": 45
+ }
+}

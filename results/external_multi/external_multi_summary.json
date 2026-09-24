@@ -1,0 +1,588 @@
+{
+ "thresholds": {
+  "core": 0.43577699999999997,
+  "core_strict_harvard": 0.48458100000000004,
+  "core_strict_nbb": 0.545168,
+  "panel": 0.5358565,
+  "panel_strict_harvard": 0.6616845,
+  "panel_strict_nbb": 0.507536
+ },
+ "strict_models": {
+  "harvard": {
+   "trained_without": [
+    "GSE20141",
+    "GSE24378"
+   ],
+   "people": 28,
+   "components": 27,
+   "panel_genes": [
+    "IBTK",
+    "GRN",
+    "TTC17",
+    "LAPTM4A",
+    "RBFOX1",
+    "SPTLC2",
+    "YY1",
+    "FGF14",
+    "CASC3",
+    "SOBP",
+    "PMEPA1",
+    "SOX4",
+    "GPNMB",
+    "NCBP1",
+    "NCOR1",
+    "HAX1",
+    "ASXL2",
+    "CNTN4",
+    "STC1",
+    "POGLUT1",
+    "PTPN13",
+    "C4orf3",
+    "ZNF503",
+    "ZNF32",
+    "LRRC8D",
+    "RNF213",
+    "RBM4B",
+    "CA8",
+    "CDH4",
+    "ANXA2",
+    "KCNIP4",
+    "TRRAP",
+    "AP2A1",
+    "GPN1",
+    "ZNF260"
+   ],
+   "panel_genes_in_reported_panel": 5
+  },
+  "nbb": {
+   "trained_without": [
+    "GSE182622"
+   ],
+   "people": 41,
+   "components": 30,
+   "panel_genes": [
+    "CFLAR",
+    "BZW1",
+    "FUS",
+    "GMPR2",
+    "ZMYND8",
+    "RNF7",
+    "PPP4R4",
+    "BCL11A",
+    "SNX19",
+    "RAP2A",
+    "EPHB2",
+    "ADGRB3",
+    "PLXNC1",
+    "GPNMB",
+    "FDX1",
+    "SSTR1",
+    "SH3GL3",
+    "PPFIA4",
+    "USP12",
+    "KIF5A",
+    "YY1AP1",
+    "SLC25A46",
+    "HOOK3",
+    "DNAJC18",
+    "CALB2",
+    "LRRC20",
+    "SCAI",
+    "RBM4B",
+    "EID2",
+    "CHM",
+    "RALGAPA2",
+    "GSTK1"
+   ],
+   "panel_genes_in_reported_panel": 15
+  }
+ },
+ "pooled": {
+  "unseen": {
+   "cohorts": [
+    "GSE20292",
+    "GSE20163",
+    "GSE20164",
+    "GSE8397",
+    "GSE49036",
+    "GSE114517",
+    "GSE168496"
+   ],
+   "people": 133,
+   "control": 63,
+   "PD": 70,
+   "auc": {
+    "neuron": {
+     "auc": 0.8488188976377953,
+     "ci_lo": 0.7668241041805192,
+     "ci_hi": 0.9207742554907911
+    },
+    "frozen": {
+     "auc": 0.6503937007874016,
+     "ci_lo": 0.5455537807555524,
+     "ci_hi": 0.7511594615049919
+    },
+    "frozen|neuron_removed": {
+     "auc": 0.5826771653543307,
+     "ci_lo": 0.47841381322089993,
+     "ci_hi": 0.6846122003674694
+    },
+    "strict": {
+     "auc": 0.6866141732283465,
+     "ci_lo": 0.5818311411357673,
+     "ci_hi": 0.7801246668435926
+    },
+    "strict|neuron_removed": {
+     "auc": 0.6409448818897637,
+     "ci_lo": 0.5332927342093073,
+     "ci_hi": 0.7383390939768892
+    },
+    "panel": {
+     "auc": 0.8173228346456692,
+     "ci_lo": 0.736221665473634,
+     "ci_hi": 0.8883092521188862
+    },
+    "panel|neuron_removed": {
+     "auc": 0.75748031496063,
+     "ci_lo": 0.6598639190823073,
+     "ci_hi": 0.8452103321115961
+    },
+    "panel_strict": {
+     "auc": 0.7653543307086614,
+     "ci_lo": 0.6860289108598266,
+     "ci_hi": 0.8377251423117565
+    },
+    "panel_strict|neuron_removed": {
+     "auc": 0.6897637795275591,
+     "ci_lo": 0.5876897920309648,
+     "ci_hi": 0.7799407465893687
+    }
+   },
+   "calls@0.5": {
+    "frozen": {
+     "accuracy": 0.6090225563909775,
+     "sensitivity": 0.5142857142857142,
+     "specificity": 0.7142857142857143,
+     "balanced_accuracy": 0.6142857142857143
+    },
+    "strict": {
+     "accuracy": 0.5263157894736842,
+     "sensitivity": 0.5571428571428572,
+     "specificity": 0.49206349206349204,
+     "balanced_accuracy": 0.5246031746031746
+    },
+    "panel": {
+     "accuracy": 0.6992481203007519,
+     "sensitivity": 0.7428571428571429,
+     "specificity": 0.6507936507936508,
+     "balanced_accuracy": 0.6968253968253968
+    },
+    "panel_strict": {
+     "accuracy": 0.6766917293233082,
+     "sensitivity": 0.7285714285714285,
+     "specificity": 0.6190476190476191,
+     "balanced_accuracy": 0.6738095238095239
+    }
+   },
+   "calls@oob": {
+    "frozen": {
+     "accuracy": 0.5714285714285714,
+     "sensitivity": 0.6,
+     "specificity": 0.5396825396825397,
+     "balanced_accuracy": 0.5698412698412698
+    },
+    "strict": {
+     "accuracy": 0.5112781954887218,
+     "sensitivity": 0.5857142857142857,
+     "specificity": 0.42857142857142855,
+     "balanced_accuracy": 0.5071428571428571
+    },
+    "panel": {
+     "accuracy": 0.6917293233082706,
+     "sensitivity": 0.6857142857142857,
+     "specificity": 0.6984126984126984,
+     "balanced_accuracy": 0.692063492063492
+    },
+    "panel_strict": {
+     "accuracy": 0.706766917293233,
+     "sensitivity": 0.6285714285714286,
+     "specificity": 0.7936507936507936,
+     "balanced_accuracy": 0.711111111111111
+    }
+   }
+  },
+  "all": {
+   "cohorts": [
+    "GSE7621",
+    "GSE20292",
+    "GSE20163",
+    "GSE20164",
+    "GSE8397",
+    "GSE49036",
+    "GSE114517",
+    "GSE168496"
+   ],
+   "people": 158,
+   "control": 72,
+   "PD": 86,
+   "auc": {
+    "neuron": {
+     "auc": 0.8575096277278562,
+     "ci_lo": 0.7873974076465958,
+     "ci_hi": 0.9203944159450842
+    },
+    "frozen": {
+     "auc": 0.7034659820282413,
+     "ci_lo": 0.6162599737225631,
+     "ci_hi": 0.7837924088704219
+    },
+    "frozen|neuron_removed": {
+     "auc": 0.6213093709884467,
+     "ci_lo": 0.5289983685920454,
+     "ci_hi": 0.7078837198317303
+    },
+    "strict": {
+     "auc": 0.7329910141206675,
+     "ci_lo": 0.6482171581241515,
+     "ci_hi": 0.814625310652124
+    },
+    "strict|neuron_removed": {
+     "auc": 0.668806161745828,
+     "ci_lo": 0.5752448749367876,
+     "ci_hi": 0.7561301844131034
+    },
+    "panel": {
+     "auc": 0.8408215661103979,
+     "ci_lo": 0.771873280762883,
+     "ci_hi": 0.9011356697447784
+    },
+    "panel|neuron_removed": {
+     "auc": 0.754813863928113,
+     "ci_lo": 0.6665522000562665,
+     "ci_hi": 0.8310235438848198
+    },
+    "panel_strict": {
+     "auc": 0.7984595635430038,
+     "ci_lo": 0.7308847664733079,
+     "ci_hi": 0.8587430631974798
+    },
+    "panel_strict|neuron_removed": {
+     "auc": 0.699614890885751,
+     "ci_lo": 0.6125515146035851,
+     "ci_hi": 0.7771523305251974
+    }
+   },
+   "calls@0.5": {
+    "frozen": {
+     "accuracy": 0.6455696202531646,
+     "sensitivity": 0.5581395348837209,
+     "specificity": 0.75,
+     "balanced_accuracy": 0.6540697674418605
+    },
+    "strict": {
+     "accuracy": 0.5759493670886076,
+     "sensitivity": 0.5930232558139535,
+     "specificity": 0.5555555555555556,
+     "balanced_accuracy": 0.5742894056847545
+    },
+    "panel": {
+     "accuracy": 0.7215189873417721,
+     "sensitivity": 0.7558139534883721,
+     "specificity": 0.6805555555555556,
+     "balanced_accuracy": 0.7181847545219638
+    },
+    "panel_strict": {
+     "accuracy": 0.7025316455696202,
+     "sensitivity": 0.7441860465116279,
+     "specificity": 0.6527777777777778,
+     "balanced_accuracy": 0.6984819121447028
+    }
+   },
+   "calls@oob": {
+    "frozen": {
+     "accuracy": 0.620253164556962,
+     "sensitivity": 0.6395348837209303,
+     "specificity": 0.5972222222222222,
+     "balanced_accuracy": 0.6183785529715762
+    },
+    "strict": {
+     "accuracy": 0.569620253164557,
+     "sensitivity": 0.627906976744186,
+     "specificity": 0.5,
+     "balanced_accuracy": 0.563953488372093
+    },
+    "panel": {
+     "accuracy": 0.7215189873417721,
+     "sensitivity": 0.7093023255813954,
+     "specificity": 0.7361111111111112,
+     "balanced_accuracy": 0.7227067183462532
+    },
+    "panel_strict": {
+     "accuracy": 0.7341772151898734,
+     "sensitivity": 0.6627906976744186,
+     "specificity": 0.8194444444444444,
+     "balanced_accuracy": 0.7411175710594315
+    }
+   }
+  }
+ },
+ "gene_agreement": {
+  "g_external": {
+   "same_sign": 19,
+   "n": 30,
+   "binom_p": 0.10024421103298667,
+   "spearman": 0.5016685205784205
+  },
+  "g_external_neuron_adj": {
+   "same_sign": 23,
+   "n": 30,
+   "binom_p": 0.0026114396750926976,
+   "spearman": 0.7210233592880979
+  }
+ },
+ "early_stage_GSE49036": {
+  "control": 8,
+  "ilbd": 5,
+  "frozen": {
+   "auc": 0.7000000000000001,
+   "ci_lo": 0.2857142857142857,
+   "ci_hi": 1.0,
+   "perm_p": 0.11738826117388261,
+   "auc_neuron_removed": 0.5750000000000001,
+   "accuracy@oob": 0.6153846153846154,
+   "sensitivity@oob": 0.8,
+   "specificity@oob": 0.5,
+   "balanced_accuracy@oob": 0.65
+  },
+  "strict": {
+   "auc": 0.875,
+   "ci_lo": 0.6190476190476191,
+   "ci_hi": 1.0,
+   "perm_p": 0.012998700129987,
+   "auc_neuron_removed": 0.875,
+   "accuracy@oob": 0.6923076923076923,
+   "sensitivity@oob": 0.4,
+   "specificity@oob": 0.875,
+   "balanced_accuracy@oob": 0.6375
+  },
+  "panel": {
+   "auc": 0.8,
+   "ci_lo": 0.5,
+   "ci_hi": 1.0,
+   "perm_p": 0.046295370462953706,
+   "auc_neuron_removed": 0.6,
+   "accuracy@oob": 0.6923076923076923,
+   "sensitivity@oob": 0.6,
+   "specificity@oob": 0.75,
+   "balanced_accuracy@oob": 0.675
+  },
+  "panel_strict": {
+   "auc": 0.675,
+   "ci_lo": 0.3181818181818182,
+   "ci_hi": 0.9666666666666667,
+   "perm_p": 0.1728827117288271,
+   "auc_neuron_removed": 0.525,
+   "accuracy@oob": 0.6153846153846154,
+   "sensitivity@oob": 0.6,
+   "specificity@oob": 0.625,
+   "balanced_accuracy@oob": 0.6125
+  },
+  "auc_neuron_markers": 0.825,
+  "spearman_strict_with_braak": 0.5351437984209956,
+  "spearman_neuron_with_braak": -0.5266449556721179
+ },
+ "donor_overlap": [
+  {
+   "cohort": "GSE7621",
+   "people": 25,
+   "shared_with_discovery": 0,
+   "basis": "different brain bank",
+   "strict_model_trained_without": "(same as frozen)",
+   "also_in_another_external_cohort": 0
+  },
+  {
+   "cohort": "GSE20292",
+   "people": 29,
+   "shared_with_discovery": 12,
+   "basis": "donor number = GSE20141",
+   "strict_model_trained_without": "GSE20141 + GSE24378",
+   "also_in_another_external_cohort": 0
+  },
+  {
+   "cohort": "GSE20163",
+   "people": 17,
+   "shared_with_discovery": 2,
+   "basis": "donor number = GSE20141",
+   "strict_model_trained_without": "GSE20141 + GSE24378",
+   "also_in_another_external_cohort": 1
+  },
+  {
+   "cohort": "GSE20164",
+   "people": 11,
+   "shared_with_discovery": 0,
+   "basis": "no donor IDs in a comparable format",
+   "strict_model_trained_without": "GSE20141 + GSE24378",
+   "also_in_another_external_cohort": 0
+  },
+  {
+   "cohort": "GSE8397",
+   "people": 23,
+   "shared_with_discovery": 0,
+   "basis": "different brain bank",
+   "strict_model_trained_without": "(same as frozen)",
+   "also_in_another_external_cohort": 0
+  },
+  {
+   "cohort": "GSE49036",
+   "people": 23,
+   "shared_with_discovery": 0,
+   "basis": "no donor IDs in a comparable format",
+   "strict_model_trained_without": "GSE182622",
+   "also_in_another_external_cohort": 0
+  },
+  {
+   "cohort": "GSE114517",
+   "people": 29,
+   "shared_with_discovery": 0,
+   "basis": "different brain bank",
+   "strict_model_trained_without": "(same as frozen)",
+   "also_in_another_external_cohort": 0
+  },
+  {
+   "cohort": "GSE168496",
+   "people": 16,
+   "shared_with_discovery": 0,
+   "basis": "brain-bank ID = GSE182622",
+   "strict_model_trained_without": "GSE182622",
+   "also_in_another_external_cohort": 0
+  }
+ ],
+ "donor_matches": [
+  {
+   "cohort": "GSE20292",
+   "external_id": "1364",
+   "discovery_id": "PD-1364-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 0.0,
+   "sex_expression": 0,
+   "sex_discovery_expression": 0
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "1401",
+   "discovery_id": "PD-1401-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 1.0,
+   "sex_expression": 1,
+   "sex_discovery_expression": 0
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "1647",
+   "discovery_id": "PD-1647-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 1.0,
+   "sex_expression": 1,
+   "sex_discovery_expression": 1
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "2515",
+   "discovery_id": "PD-2515p-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 1.0,
+   "sex_expression": 1,
+   "sex_discovery_expression": 1
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "2525",
+   "discovery_id": "PD-2525-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 1.0,
+   "sex_expression": 1,
+   "sex_discovery_expression": 1
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "2829",
+   "discovery_id": "C-2829-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 1.0,
+   "sex_expression": 1,
+   "sex_discovery_expression": 0
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "3397",
+   "discovery_id": "C-3397-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 1.0,
+   "sex_expression": 1,
+   "sex_discovery_expression": 1
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "3543",
+   "discovery_id": "C-3543-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 1.0,
+   "sex_expression": 1,
+   "sex_discovery_expression": 1
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "5138",
+   "discovery_id": "PD-5138-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 0.0,
+   "sex_expression": 0,
+   "sex_discovery_expression": 0
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "5220",
+   "discovery_id": "C-5220-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 0.0,
+   "sex_expression": 0,
+   "sex_discovery_expression": 0
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "5476",
+   "discovery_id": "PD-5476-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 0.0,
+   "sex_expression": 0,
+   "sex_discovery_expression": 0
+  },
+  {
+   "cohort": "GSE20292",
+   "external_id": "3132",
+   "discovery_id": "C-3132p-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": 0.0,
+   "sex_expression": 1,
+   "sex_discovery_expression": 0
+  },
+  {
+   "cohort": "GSE20163",
+   "external_id": "2515",
+   "discovery_id": "PD-2515p-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": NaN,
+   "sex_expression": 1,
+   "sex_discovery_expression": 1
+  },
+  {
+   "cohort": "GSE20163",
+   "external_id": "2525",
+   "discovery_id": "PD-2525-SNc",
+   "diagnosis_agrees": true,
+   "sex_metadata": NaN,
+   "sex_expression": 0,
+   "sex_discovery_expression": 1
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "alisaremi/pd-lcm-rf-core",
+  "title": "PD LCM RF Core",
+  "code_file": "PD_LCM_rf_core.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": ["alisaremi/pd-lcm-merged-pipeline"],
+  "model_sources": []
+}
