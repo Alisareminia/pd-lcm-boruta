@@ -1,0 +1,111 @@
+{
+ "lists": {
+  "up": [
+   "CFLAR",
+   "FUS",
+   "ZMYND8",
+   "CALB1",
+   "PRKAR2A",
+   "BCL11A",
+   "DNAJB1",
+   "PLXNC1",
+   "GPNMB",
+   "CACNA1A",
+   "PPFIA4",
+   "MANF",
+   "ICE1",
+   "CALB2",
+   "RBM4B",
+   "L3MBTL1",
+   "TRRAP",
+   "GSTK1"
+  ],
+  "down": [
+   "IBTK",
+   "CPNE3",
+   "LGMN",
+   "SOX6",
+   "ADGRB3",
+   "SSTR1",
+   "SH3GL3",
+   "CNTN4",
+   "USP12",
+   "ELOVL7",
+   "SCAI",
+   "C11orf54"
+  ],
+  "all": [
+   "CFLAR",
+   "IBTK",
+   "CPNE3",
+   "FUS",
+   "LGMN",
+   "ZMYND8",
+   "CALB1",
+   "SOX6",
+   "PRKAR2A",
+   "BCL11A",
+   "DNAJB1",
+   "ADGRB3",
+   "PLXNC1",
+   "GPNMB",
+   "SSTR1",
+   "SH3GL3",
+   "CACNA1A",
+   "PPFIA4",
+   "CNTN4",
+   "MANF",
+   "USP12",
+   "ICE1",
+   "ELOVL7",
+   "CALB2",
+   "SCAI",
+   "RBM4B",
+   "C11orf54",
+   "L3MBTL1",
+   "TRRAP",
+   "GSTK1"
+  ]
+ },
+ "ora_calibration": {
+  "up": {
+   "n": 18,
+   "terms": 3547,
+   "random_sets_with_any_BH_hit": 0.01,
+   "p_fwer05_random": 7.402038201200409e-05,
+   "p_fwer05_matched": 3.2745549097536705e-05
+  },
+  "down": {
+   "n": 12,
+   "terms": 3547,
+   "random_sets_with_any_BH_hit": 0.01,
+   "p_fwer05_random": 0.00018619086671917964,
+   "p_fwer05_matched": 0.00018619086671917964
+  },
+  "all": {
+   "n": 30,
+   "terms": 3547,
+   "random_sets_with_any_BH_hit": 0.008,
+   "p_fwer05_random": 7.017696532893998e-05,
+   "p_fwer05_matched": 3.7838164434320814e-05
+  }
+ },
+ "subtypes": {
+  "coverage": 0.7454642475987193,
+  "up_vs_down": 0.0005932377555712102,
+  "up_vs_background": 0.0033210317103480862,
+  "down_vs_background": 0.0018819346448394978,
+  "separation": 5.363446956614556,
+  "p_vs_DE_matched": 0.00399800099950025,
+  "rho_transcriptome": 0.139695319031945,
+  "rho_p_label_shuffle": 0.2048975512243878,
+  "background_p05": -3.8816317836373933,
+  "background_p95": 0.8530611069491795
+ },
+ "neighbours": {
+  "terms": 501,
+  "fwer_lt_0.05": 0,
+  "fdr_lt_0.05": 0,
+  "fdr_lt_0.10": 0
+ }
+}

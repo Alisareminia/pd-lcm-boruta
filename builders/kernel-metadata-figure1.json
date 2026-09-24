@@ -1,0 +1,23 @@
+{
+  "id": "alisaremi/pd-lcm-rf-figure-1",
+  "title": "PD LCM RF Figure 1",
+  "code_file": "PD_LCM_rf_figure1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "alisaremi/pd-lcm-merged-pipeline",
+    "alisaremi/pd-lcm-rf-core",
+    "alisaremi/pd-lcm-rf-boruta-panel",
+    "alisaremi/pd-lcm-rf-confirm",
+    "alisaremi/pd-lcm-rf-external-unified",
+    "alisaremi/pd-lcm-rf-enrichment",
+    "alisaremi/pd-lcm-rf-pathway-composition"
+  ],
+  "model_sources": []
+}

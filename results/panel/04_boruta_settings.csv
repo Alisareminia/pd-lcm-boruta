@@ -1,0 +1,8 @@
+setting,value
+importance_model,"Random Forest, 500 trees, max_features=sqrt, balanced"
+boruta_perc,99
+n_confirmed,30
+n_tentative,31
+n_confirmed_perc100,8
+mean_genes_per_training_fold,31.04
+n_folds,25

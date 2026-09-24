@@ -1,0 +1,17 @@
+{
+  "id": "alisaremi/pd-lcm-rf-composition-figures",
+  "title": "PD LCM RF Composition Figures",
+  "code_file": "PD_LCM_rf_composition_figures.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "alisaremi/pd-lcm-rf-pathway-composition"
+  ],
+  "model_sources": []
+}

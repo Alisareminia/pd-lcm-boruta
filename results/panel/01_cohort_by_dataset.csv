@@ -1,0 +1,5 @@
+dataset,platform,control,PD,people,units_merged
+GSE182622,RNA-seq (LCM pools),10,12,22,192
+GSE20141,microarray (AFFY_HG_U133_PLUS_2),8,10,18,18
+GSE24378,microarray (AFFY_HG_U133_X3P),9,8,17,17
+GSE169755,RNA-seq (LCM),3,3,6,12

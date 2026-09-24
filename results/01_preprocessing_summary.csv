@@ -1,0 +1,8 @@
+step,genes,samples
+GSE182622 genes after pool filter,12378,22
+GSE169755 genes,22749,6
+GSE20141 genes,21407,18
+GSE24378 genes,21353,17
+raw matrix,28180,63
+genes on every platform,10164,63
+expressed in every dataset (model X),5622,63
