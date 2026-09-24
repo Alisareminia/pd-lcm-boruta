@@ -1,0 +1,50 @@
+{
+ "GSE7621": {
+  "key": "lesnick2007",
+  "geo_title": "Expression data of substantia nigra from postmortem human brain of Parkinson's disease patients (PD)",
+  "pmid": "17571925",
+  "paper": "A Genomic Pathway Approach to a Complex Disease: Axon Guidance and Parkinson Disease"
+ },
+ "GSE8397": {
+  "key": "moran2006",
+  "geo_title": "Expression profiling of the Parkinsonian Brain",
+  "pmid": "16344956",
+  "paper": "Whole genome expression profiling of the medial and lateral substantia nigra in Parkinson\u2019s disease"
+ },
+ "GSE20163": {
+  "key": "zheng2010",
+  "geo_title": "Systematic meta-analysis and replication of genome-wide expression studies of Parkinson's disease: 2",
+  "pmid": "20926834",
+  "paper": "<i>PGC-1</i>\n                    \u03b1, A Potential Therapeutic Target for Early Intervention in Parkinson\u2019s Disease"
+ },
+ "GSE20164": {
+  "key": "zheng2010",
+  "geo_title": "Systematic meta-analysis and replication of genome-wide expression studies of Parkinson's disease: 3",
+  "pmid": "20926834",
+  "paper": "<i>PGC-1</i>\n                    \u03b1, A Potential Therapeutic Target for Early Intervention in Parkinson\u2019s Disease"
+ },
+ "GSE20292": {
+  "key": "zhang2005",
+  "geo_title": "Transcriptional analysis of whole substantia nigra in Parkinson's disease",
+  "pmid": "15965975",
+  "paper": "Transcriptional analysis of multiple brain regions in Parkinson's disease supports the involvement of specific protein processing, energy metabolism, and signaling pathways, and suggests novel disease mechanisms"
+ },
+ "GSE49036": {
+  "key": "dijkstra2015",
+  "geo_title": "Evidence for immune response, axonal dysfunction and reduced endocytosis preceding Lewy body pathology in the substantia nigra in Parkinson\u2019s disease",
+  "pmid": "26087293",
+  "paper": "Evidence for Immune Response, Axonal Dysfunction and Reduced Endocytosis in the Substantia Nigra in Early Stage Parkinson\u2019s Disease"
+ },
+ "GSE114517": {
+  "key": "simchovitz2020",
+  "geo_title": "Next generation sequencing reveals upregulation of the lncRNA LINC-PINT in the substantia nigra of human Parkinson's disease patients compared to control donors",
+  "pmid": "32080970",
+  "paper": "A lncRNA survey finds increases in neuroprotective LINC\u2010PINT in Parkinson\u2019s disease <i>substantia nigra</i>"
+ },
+ "GSE168496": {
+  "key": "tranchevent2023",
+  "geo_title": "Transcriptomics analysis of post-mortem substantia nigra samples from Parkinson\u2019s disease patients and controls.",
+  "pmid": "36681675",
+  "paper": "Systems level analysis of sex-dependent gene expression changes in Parkinson\u2019s disease"
+ }
+}

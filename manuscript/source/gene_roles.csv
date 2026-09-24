@@ -1,0 +1,31 @@
+symbol,uniprot,protein,role,location
+PLXNC1,O60486,Plexin-C1,Receptor for semaphorin 7A; its signalling rearranges the cytoskeleton.,Membrane
+CALB2,P22676,Calretinin,Calcium-binding protein that buffers intracellular calcium in specific neuronal populations.,"Synapse; Cell projection, dendrite"
+RBM4B,Q9BQ04,RNA-binding protein 4B,RNA-binding protein that activates translation of the clock gene PER1.,"Nucleus; Nucleus, nucleolus"
+GPNMB,Q14956,Transmembrane glycoprotein NMB,"Transmembrane glycoprotein, annotated as a possible melanogenic enzyme.",Cell membrane; Melanosome membrane; Early endosome membrane
+FUS,P35637,RNA-binding protein FUS,"DNA/RNA-binding protein acting in transcription, splicing, RNA transport and DNA repair.",Nucleus
+ZMYND8,Q9ULU4,MYND-type zinc finger-containing chromatin reader ZMYND8,Chromatin reader that recognises combined histone methylation and acetylation marks.,Nucleus; Chromosome; Cytoplasm
+TRRAP,Q9Y4A5,Transformation/transcription domain-associated protein,Adapter of histone acetyltransferase complexes that mark chromatin for transcription.,Nucleus
+PPFIA4,O75335,Liprin-alpha-4,Scaffold that may regulate focal-adhesion turnover and position receptor tyrosine phosphatases.,Cytoplasm; Cell surface
+ICE1,Q9Y2F5,Little elongation complex subunit 1,"Scaffold of the little elongation complex, which drives small nuclear RNA transcription.","Nucleus; Nucleus, Cajal body"
+BCL11A,Q9H165,BCL11 transcription factor A,Transcription factor associated with the BAF chromatin-remodelling complex.,Cytoplasm; Nucleus; Chromosome; Nucleus matrix; Cytoplasm; Nucleus; Cytoplasm; Nucleus
+PRKAR2A,P13861,cAMP-dependent protein kinase type II-alpha regulatory subunit,Regulatory subunit of cAMP-dependent protein kinase that anchors it to membranes.,Cytoplasm; Cell membrane
+DNAJB1,P25685,DnaJ homolog subfamily B member 1,HSP40 co-chaperone that stimulates HSP70 in protein folding.,"Cytoplasm; Nucleus; Nucleus, nucleolus"
+GSTK1,Q9Y2Q3,Glutathione S-transferase kappa 1,Glutathione S-transferase that conjugates glutathione to foreign and endogenous compounds.,Peroxisome
+CALB1,P05937,Calbindin,Calcium-binding protein that buffers cytosolic calcium.,
+MANF,P55145,Mesencephalic astrocyte-derived neurotrophic factor,Secreted factor that selectively promotes survival of ventral midbrain dopamine neurons.,Secreted; Endoplasmic reticulum lumen; Sarcoplasmic reticulum lumen
+CFLAR,O15519,CASP8 and FADD-like apoptosis regulator,Apoptosis regulator that inhibits death-receptor-mediated cell death.,
+CACNA1A,O00555,Voltage-dependent P/Q-type calcium channel subunit alpha-1A,Pore-forming subunit of P/Q-type voltage-gated calcium channels.,Cell membrane
+L3MBTL1,Q9Y468,Lethal(3)malignant brain tumor-like protein 1,Polycomb-group reader of methylated lysines that keeps genes repressed.,Nucleus
+LGMN,Q99538,Legumain,Lysosomal protease that cleaves proteins after asparagine residues.,Lysosome
+ADGRB3,O60242,Adhesion G protein-coupled receptor B3,Adhesion G protein-coupled receptor that regulates synapse and dendritic-spine formation.,Cell membrane
+CPNE3,O75131,Copine-3,Calcium-dependent phospholipid-binding protein involved in cell migration.,Nucleus; Cytoplasm; Cell membrane
+CNTN4,Q8IWV2,Contactin-4,Cell-surface adhesion molecule of nervous-system development that promotes neurite outgrowth.,Cell membrane; Secreted
+SCAI,Q8N9R8,Protein SCAI,Suppressor of MRTF-A-driven SRF transcription that regulates cell migration.,Membrane; Nucleus; Cytoplasm
+ELOVL7,A1L3X0,Very long chain fatty acid elongase 7,Rate-limiting elongase of long- and very-long-chain fatty acids in the endoplasmic reticulum.,Endoplasmic reticulum membrane
+SH3GL3,Q99963,Endophilin-A3,Endophilin that binds curved membranes and takes part in endocytosis.,Cytoplasm; Early endosome membrane
+C11orf54,Q9H0W9,Beta-keto L-gulonate decarboxylase,Decarboxylase of the pentose pathway that also regulates HIF1A degradation.,Nucleus; Cytoplasm
+SOX6,P35712,Transcription factor SOX-6,Transcription factor in neurogenesis and cartilage development.,Nucleus; Cytoplasm
+IBTK,Q9P2D0,Inhibitor of Bruton tyrosine kinase,Inhibitor of Bruton tyrosine kinase in B-cell development.,Cytoplasm; Membrane; Nucleus
+SSTR1,P30872,Somatostatin receptor type 1,Somatostatin receptor that inhibits adenylyl cyclase through G proteins.,Cell membrane
+USP12,O75317,Ubiquitin carboxyl-terminal hydrolase 12,Deubiquitinating enzyme that regulates immune and inflammatory signalling.,Nucleus; Cytoplasm; Cell membrane

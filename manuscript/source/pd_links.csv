@@ -1,0 +1,8 @@
+symbol,human_text,human_key,mech_text,mech_key
+GPNMB,"Strong: a genome-wide significant Parkinson's risk locus, with the risk allele raising GPNMB in brain",diazortiz2022,Strong: the protein binds $\alpha$-synuclein and promotes its uptake by neurons,diazortiz2022
+SOX6,Strong: marks the nigral dopamine population that is selectively lost in Parkinson's disease,kamath2022,Moderate: SOX6 specifies substantia nigra rather than ventral tegmental identity in development,panman2014
+CALB1,Strong: calbindin-rich compartments of the human substantia nigra lose far fewer dopamine neurons,damier1999,Moderate: CALB1 subtypes are the relatively spared ones in single-nucleus profiling,kamath2022
+MANF,,,Strong: delivered after a 6-hydroxydopamine lesion it restores nigrostriatal function in rats,voutilainen2009
+ELOVL7,Moderate: carries a common Parkinson's risk variant in case-control association studies,li2018,,
+LGMN,Moderate: the enzyme is active in Parkinson's brain tissue,zhang2017,"Strong: legumain cleaves $\alpha$-synuclein at N103, and the fragment aggregates and is toxic to dopamine neurons",zhang2017
+DNAJB1,,,"Limited: tested directly against seeded $\alpha$-synuclein aggregation, where the related chaperone DNAJB6, but not DNAJB1, suppressed it",deshayes2019
