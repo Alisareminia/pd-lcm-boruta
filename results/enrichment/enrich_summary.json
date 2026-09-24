@@ -92,9 +92,9 @@
  },
  "subtypes": {
   "coverage": 0.7454642475987193,
-  "up_vs_down": 0.0005932377555712102,
-  "up_vs_background": 0.0033210317103480862,
-  "down_vs_background": 0.0018819346448394978,
+  "up_vs_down": 0.0011864755111424205,
+  "up_vs_background": 0.0066420634206961725,
+  "down_vs_background": 0.0037638692896789956,
   "separation": 5.363446956614556,
   "p_vs_DE_matched": 0.00399800099950025,
   "rho_transcriptome": 0.139695319031945,

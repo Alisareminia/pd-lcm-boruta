@@ -251,9 +251,10 @@ cover = float((ZT.abs().sum(1) > 0).mean())
 lin = BG.lineage.to_numpy()
 SUB = {"coverage": cover}
 up_i, dn_i = np.array([GI[g] for g in UP]), np.array([GI[g] for g in DOWN])
-SUB["up_vs_down"] = mannwhitneyu(lin[up_i], lin[dn_i], alternative="greater").pvalue
-SUB["up_vs_background"] = mannwhitneyu(lin[up_i], np.delete(lin, PANEL_I), alternative="greater").pvalue
-SUB["down_vs_background"] = mannwhitneyu(lin[dn_i], np.delete(lin, PANEL_I), alternative="less").pvalue
+# two-sided throughout: the direction of the split is a finding, not an assumption
+SUB["up_vs_down"] = mannwhitneyu(lin[up_i], lin[dn_i], alternative="two-sided").pvalue
+SUB["up_vs_background"] = mannwhitneyu(lin[up_i], np.delete(lin, PANEL_I), alternative="two-sided").pvalue
+SUB["down_vs_background"] = mannwhitneyu(lin[dn_i], np.delete(lin, PANEL_I), alternative="two-sided").pvalue
 # DE-matched null: is the separation larger than for genes equally strongly changed in PD?
 obs = lin[up_i].mean() - lin[dn_i].mean()
 null = np.array([lin[matched_draw(up_i)].mean() - lin[matched_draw(dn_i)].mean() for _ in range(B_RAND)])
